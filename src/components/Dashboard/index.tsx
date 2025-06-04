@@ -1,11 +1,11 @@
 "use client";
 
-import Header from "../Header";
-
+import SendNotification from "../SendNotification";
 const Dashboard = () => {
   return (
     <div>
-      <Header />
+      <SendNotification />
+      {/* <Header /> */}
     </div>
   );
 };
