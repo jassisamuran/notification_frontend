@@ -1,7 +1,7 @@
 "use client";
+import SideNavbar from "@/components/SideNavbar";
 import { useState } from "react";
 // import socket from "../lib/socket";
-import Dashboard from "../components/Dashboard";
 function Home() {
   const [message, setMessage] = useState("");
   const [chat, setChat] = useState<string[]>([]);
@@ -23,7 +23,7 @@ function Home() {
 
   return (
     <div>
-      <Dashboard />
+      <SideNavbar />
     </div>
   );
 }

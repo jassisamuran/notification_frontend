@@ -26,10 +26,6 @@ const Header = () => {
         </div>
 
         <div className="flex items-center text-3xl">
-          <div className="font-bold items-center rounded-lg border-amber-100 bg-green-200 p-2">
-            <span className="green-dot mr-2"></span>
-            Live
-          </div>
           <CiSettings />
         </div>
       </div>
